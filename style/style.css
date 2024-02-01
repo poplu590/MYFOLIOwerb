@@ -63,7 +63,7 @@ body {
 
 #banner{
     height: 720px;
-    background-image: url(../Image/Banner.jpg);
+    background-image: url(../image/Banner.jpg);
     background-position: center;
     background-size: cover;
 }
