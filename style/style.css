@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+ 
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*-- ==== Nav Start ==== --*/
+
+.first_div{
+    background-color: #02918B;
+    
+}
+.second_div{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;  
+}
+
+.second_div img{
+    padding: 18px 0px 23px; 
+}
+
+
+
+.second_div ul{
+    list-style: none;
+}
+
+.second_div ul li{
+    display: inline;
+}
+.second_div ul li a{
+    color:white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    padding: 0 25px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+
+.second_div ul li a:hover{
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+/*-- ==== Nav End ==== --*/
+
+/*-- ==== Banner Start ==== --*/
+
+#banner{
+    height: 720px;
+    background-image: url(../Image/Banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.content h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+}
+.content p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.content img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.content a{
+    color: white;
+    background-color: #afaa0f;
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.5s;  
+}
+
+.content a:hover{
+    color: black;
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;  
+}
+
+/*-- ==== Banner End ==== --*/
+
+
+/*-- ==== About Start ==== --*/
+
+#about{
+    padding: 99px 0px;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    padding: 70px 0;
+}
+
+
+.title_des{
+  
+    text-align: center;
+}
+
+.title_des h2{
+    font-size: 46px;
+    font-weight: 900;
+    color: #02918c;
+    text-transform: uppercase;
+}
+
+.title_des p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+    width: 880px;
+    margin: auto;
+}
+
+.title_des p b{
+    font-size: 23px;
+    color: #7e8287;
+
+}
+
+#about .title_des p{
+    margin: auto;
+    width: 870px;
+}
+
+
+.about_card_container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about_card{
+    width: 25%;
+    border-right: 1px solid #899696;
+    padding: 36px 61px;
+}
+
+.about_card img{
+    width: 33px;
+}
+
+
+.about_card h2{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 31px 0;
+    color: #7e8287;
+}
+
+.about_card p{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e8287;
+}
+
+.about_card_container .about_card:last-child{
+    border-right: 1px solid transparent;
+}
+
+/*-- ==== About End ==== --*/
+
+
+/*-- ==== Service Start ==== --*/
+
+#services{
+    background-image: url(.././image/BG_MYFOLIO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div_container{ 
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+
+.service_card{
+    width:50%;
+}
+
+
+.service_detail h2{
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.service_detail p{
+    width: 476px;
+    font-size: 16px;
+    line-height: 41px;
+    color: #02918c;
+
+}
+
+.icon_container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.icon_detail{
+    width: 50%;
+    margin-top: 24px;
+}
+
+.icon_detail img{
+    width: 35px;
+}
+
+.icon_detail h2{
+    color: #7e8287;
+    font-size: 16px;
+    margin: 23px 0;
+    font-weight: 600;
+}
+
+.icon_container .icon_detail p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 21px;
+    padding-right: 128px;
+}
+
+/*-- ==== Service End ==== --*/
+
+
+/*-- ==== My Work Start ==== --*/
+
+#mywork{
+    margin: 99px 0 ;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 1px 238px;
+}
+
+.section-heading h2{
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.section-heading p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #02918c;
+
+}
+
+.mywork_card_contain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-card{
+    width: 25%;
+    position: relative;
+}
+
+.work-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.work-card .overlay{
+    position: absolute;
+    background-color: rgba(2, 145, 140, 0.85);
+    left: 20px;
+    top: 28px;
+    right: 20px;
+    bottom: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    transform: scaleY(0);
+}
+
+.work-card:hover .overlay{
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+ .overlay h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+} 
+
+
+.overlay p{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+} 
+
+
+#footer{
+    background-color: #0b0b0b;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container .name{
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: auto;
+}
+
+.name input{
+    margin: 6px 0px;
+    width: 50%;
+    color:white;
+    font-size: 15px;
+    background-color: #0b0b0b;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.form-container .email{
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.email input{
+    margin: 6px 0px;
+    color:white;
+    font-size: 15px;
+    background-color: #0b0b0b;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+
+.form-container .subject{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;    
+    border-bottom: 1px solid white;
+}
+
+
+.subject input{
+    margin: 6px 0px;
+    width: 60%;
+    color:white;
+    font-size: 15px;
+    background-color: #0b0b0b;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+
+.form-container .message{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;    
+    border-bottom: 1px solid white; 
+}
+
+
+.message input{
+    margin: 6px 0px;
+    width: 70%;
+    color:white;
+    font-size: 15px;
+    background-color: #0b0b0b;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.form-container .submit{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;    
+}
+
+
+.submit input{
+    padding: 10px 40px;
+    color:black;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    text-align: center;
+    border: none;
+    transition: 0.4s;
+}
+
+
+.submit input:hover{
+    background-color: #ffffff;
+    outline-offset: 10px;
+}
+
+#footer .myfolio{
+    background-color: black;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
